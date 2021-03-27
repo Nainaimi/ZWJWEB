@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>校园网注册</title>
+</head>
+<body>
+<form>
+ <fieldset>
+<legend>
+  校园网注册页面
+  </legend>
+ <table>
+            <tr>
+              <td>
+                    用户名
+              </td>
+              <td>
+                  <input id="txtUserName" type="text" autofocus="true"pattern="^[a-zA-Z0-9]{5,}$" >
+                      <br>
+                      <span style="color:red;font-size:12px">只允许输入英文和数字，且长度至少为6</span>
+              </td>
+            </tr>
+            <tr>
+                 <td>
+                   邮箱
+                 </td>
+              <td>
+                  <input id="email" required="true">
+              </td>
+</tr>
+<tr>
+                 <td>
+                   学号
+                 </td>
+  <td>
+    <p>
+      <input id="number" required="true">
+    </p>
+  </td>
+</tr>
+<tr>
+ <td colspan="2">
+ <input type="submit" value="提交">
+ <input type="reset" value="重置">
+</table>
+</fieldset>
+</body>
+</html>
